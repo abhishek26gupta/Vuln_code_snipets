@@ -1,3 +1,13 @@
+'''
+USE this header and jwt
+Authorization: Bearer eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImV4cCI6MS41MjEyMzQxMjM0MjEzNDIxZSsyMiwiaWF0IjoxNTE2MjM5MDIyfQ.
+
+
+It has the algorithm header set to none. {"alg":"none"}
+'''
+
+
+
 import os
 import jwt
 from flask import Flask, request, jsonify
